@@ -1,0 +1,278 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f2f2;
+  /* background-color: beige; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.small-image {
+  width: 200px;
+  height: auto;
+}
+/* Navbar styles */
+.navbar {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header .logo {
+  color: #2196f3;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #2196f3;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #2196f3;
+}
+
+.button-table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.button-table td {
+  padding: 10px;
+}
+
+.intro-container {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  border: 2px solid black; /* Set the border width and color */
+  padding: 10px; /* Add padding to the content inside the box */
+}
+
+.intro-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.intro-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.intro-button:hover {
+  background-color: #0d8aed;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+  box-shadow: black;
+  padding-right: 2rem;
+}
+
+.intro-options {
+  font-size: 14px;
+  color: #666;
+}
+
+.intro-option-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.intro-option-link:hover {
+  color: #2196f3;
+}
+
+.entry-button {
+  color: #0d8aed;
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 1rem, 1rem, 1rem, 1rem;
+  width: 16rem;
+}
+
+.input_field {
+  padding-bottom: 2rem;
+}
+.input-box {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+
+.input-box::placeholder {
+  color: #999;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.input:hover {
+  border-color: #999;
+}
+
+.social-icons {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.custom-button {
+  width: 200px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 9.24px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-item {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.button-text {
+  font-size: 14px;
+}
+
+.footer {
+  /* background-color: #8f9779; */
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+  max-width: 400px;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.down {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.down a {
+  color: #333;
+  text-decoration: none;
+}
